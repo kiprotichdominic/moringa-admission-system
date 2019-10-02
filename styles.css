@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .logonav {
+  background-color: #637c33;
+  position: relative;
+  height: 142px;
+  width: 340px;
+} */
+body {
+  font-family: "Lato", sans-serif;
+}
+#navbar {
+  width: 100%;
+  position: fixed;
+}
+.home a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.home ul {
+  display: flex;
+  background-color: #637c33;
+  padding: 20px;
+  box-shadow: 5px 5px 5px white;
+  position: sticky;
+}
+.home li {
+  list-style-type: none;
+  padding: 10px;
+  float: right;
+}
+.home {
+  background-image: url("https://bit.ly/2nt0UKF");
+  height: 100vh;
+  max-width: 100%;
+  padding: 5px 0;
+  margin: 0 auto;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.welcome {
+  text-align: center;
+  padding-top: 320px;
+}
+.welcome h1 {
+  color: white;
+  font-size: 100px;
+  padding-bottom: 30px;
+}
+.welcome button {
+  padding: 10px;
+  margin: 10px;
+  text-transform: uppercase;
+  width: 170;
+  height: 100;
+}
+.btn-register {
+  cursor: pointer;
+  background-color: #fd8c25;
+  border-color: #fd8c25;
+  border-radius: 8px;
+
+}
+.aboutaccess {
+  text-align: center;
+  align-content: center;
+}
+.aboutaccess h1 {
+  line-height: 1;
+  margin: 20px 0 0;
+  font-size: 21;
+}
+.aboutaccess img {
+  z-index: 1;
+  height: 600px;
+}
+p {
+  margin: 30px 0 0;
+}
+hr {
+  border-bottom: 1px solid #637c33;
+  flex: center;
+}
+.p-about {
+  width: 65%;
+  margin: auto;
+  line-height: 1.6;
+  font-size: 18px;
+}
+.p-about p {
+  margin: 10px;
+}
+.p-about img {
+  margin-top: 15px;
+  height: 500px;
+  width: 700px;
+}
+.fags > h1 {
+  line-height: 1;
+  margin: 20px 0 0;
+  font-size: 21;
+}
+.firstlist li {
+  text-align: start;
+}
+.p-about h3 {
+  text-align: center;
+}
+.list2 li {
+  text-align: start;
+}
+.list3 li {
+  text-align: start;
+}
+p {
+  text-align: start;
+}
+span {
+  font-weight: bold;
+}
+#forms {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #637c33;
+}
+.forms input {
+  align-content: center;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #637c33;
+  border-radius: 4px;
+  margin: 8px 0;
+}
+#select , option {
+  margin: 8px 10px;
+  padding: 12px 0px;
+  align-content: center;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+#submit {
+  cursor: pointer;
+  background-color: #fd8c25;
+  border-radius: 4px;
+  text-align: center;
+  width: 10em;
+  border: none;
+  padding: 14px 20px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  text-transform: uppercase;
+}
+#submit:hover {
+  box-shadow: #637c33;
+  box-shadow: 5px 5px 1px 1px grey;
+}
+.btn-apply  {
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  padding: 14px 20px;
+  width: 10em;
+  height: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: none;
+  text-transform: uppercase;
+  background-color: #fd8c25;
+}
+.foot1 {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 17px;
+  background-color: #637c33;
+}
+#contacts {
+  padding-right: 50px;
+  margin: 0 auto;
+}
+#program1 {
+  padding-right: 30px;
+  margin: 0 auto;
+}
+#foot3 {
+  padding-right: 20px;
+  margin: 0 auto;
+}
+#foot1 h3 {
+  font-weight: bold;
+  text-transform: capitalize;
+}
